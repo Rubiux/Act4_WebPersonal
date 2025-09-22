@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listas en HTML5</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+            body{
+                background-color: #f4f4f4;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                list-style: 1.6;
+            }
+            h1{
+                color: white;
+            }
+            h2 {
+                color: white;
+            }
+            h3{
+                color: white;
+            }
+            h4{
+                color: white;
+            }
+            /*===ENCABEZADO===*/
+            main{
+                padding: 20px;
+            }
+            header{
+                background-image: url("images/Wilson_Fondo6.jpg");
+                background-position: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.274);
+                background-blend-mode: darken;
+                color: white;
+                padding: 60px;
+                height: 100px;
+                text-align: center;
+            }
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0 15px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav a:hover{
+                color: #333;
+            }
+            article, h2, section, aside{
+                background-color: #333;
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                box-shadow: 0 0 5px #333;
+            }
+            aside{
+                background-color: #333;
+                color: white;
+                padding: 10px;
+            }
+            /*===FOOTER===*/
+            footer{
+                background-color: black;
+                color: white;
+                padding: 40px;
+                text-align: center;
+            }
+            .social-icons{
+                margin-top: 10px;
+                color: white;
+            }
+            .social-icons a{
+                font-size: 1.5em;
+                margin: 0 10px;
+                color: white;
+            }
+            .social-icons a:hover{
+                color: white;
+            }
+            /*===COLOR LETRAS===*/
+            section a{
+                color: white;
+            }
+            li, dd, dt{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <!--ENCABEZADO-->
+        <header>
+            <h1>Listas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tablas.html">Tablas</a></li>
+                    <li><a href="listas.html">Listas</a></li>
+                    <li><a href="texto.html">Texto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <article id="Contenido">
+            <h2>Lista Ordenada</h2>
+            <ol> 
+                <li>una opción</li>
+                <li>otra opción</li>
+                <li>una opción más </li>
+            </ol>
+        </article id="Contenido">
+        <section>
+            <h3>Categorias</h3>
+            <ul type="square"> <!--disc, circle, square, none-->
+                <dt>
+                    <dt>Una categoria</dt>
+                    <dd>Una subcategoria</dd>
+                <dt>Otra categoria</dt>
+                    <dd>Otra subcategoria</dd>
+                    <dd>Otra subcategoria</dd>
+                </dt>
+            </ul>
+        </section>
+        <aside>
+            <h2>Listas añadidas</h2>
+            <ul type="square"> <!--disc, circle, square, none-->
+                <li>Café</li>
+                <li>Té</li>
+                <ul>
+                    <li>Té Jazmin</li>
+                    <li>Té Verde</li>
+                    <li>Té Negro</li>
+                </ul>
+                <li>Agua</li>
+            </ul>
+        </aside>
+        </article>
+        </main>
+        
+        <footer>
+            <p> &copy; 2025 Web sobre mi | Contacto: byrubius10@gmail.com </p>
+            <a href="https://www.instagram.com/vir._.xoxo/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100094449482226" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/@willojeda117" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </footer>
+    </body>
+</html>

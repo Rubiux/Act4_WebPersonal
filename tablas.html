@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tablas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: #f4f4f4;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                list-style: 1.6;
+            }
+            h1{
+                color: white;
+            }
+            h2 {
+                color: white;
+            }
+            h3{
+                color: white;
+            }
+            h4{
+                color: white;
+            }
+            /*===ENCABEZADO===*/
+            main{
+                padding: 20px;
+            }
+            header{
+                background-image: url("images/Wilson_Fondo6.jpg");
+                background-position: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.274);
+                background-blend-mode: darken;
+                color: white;
+                padding: 60px;
+                height: 100px;
+                text-align: center;
+            }
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0 15px;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav a:hover{
+                color: #333;
+            }
+            article {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px #333;
+            }
+
+            section{
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px #333;
+            }
+            aside{
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px #333;
+
+            }
+            /*===FOOTER===*/
+            footer{
+                background-color: black;
+                color: white;
+                padding: 40px;
+                text-align: center;
+            }
+            .social-icons{
+                margin-top: 10px;
+                color: white;
+            }
+            .social-icons a{
+                font-size: 1.5em;
+                margin: 0 10px;
+                color: white;
+            }
+            .social-icons a:hover{
+                color: white;
+            }
+            /*===COLOR LETRAS===*/
+            section a{
+                color: white;
+            }
+            table{
+                color: white;
+                text-align: center;
+                margin: auto;
+            }
+        </style>
+    <!--ENCABEZADO-->
+        <header>
+            <h1>Tablas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tablas.html">Tablas</a></li>
+                    <li><a href="listas.html">Listas</a></li>
+                    <li><a href="texto.html">Texto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+        <article id="Contenido">
+            <h2>Tabla clasica</h2>
+            <hr>
+            <table border="1">
+                <caption>Titulo de tabla</caption>
+                <thead>
+                    <!--cabecera-->
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr><!--row-->
+                </thead>
+                <tbody>
+                    <!--cuerpo-->
+                    <tr>
+                        <td>Teresita</td>
+                        <td>Lopez</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Sergio</td>
+                        <td>Chávez</td>
+                        <td>18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <aside>
+            <h2>Tabla Columnas</h2>
+            <hr>
+            <table border="1">
+                <caption>Columnas</caption>
+                <thead>
+                    <!--cabecera-->
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr><!--row-->
+                </thead>
+                <tbody>
+                    <!--cuerpo-->
+                    <tr>
+                        <td>Teresita</td>
+                        <td>Lopez</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Sergio</td>
+                        <td>Chávez</td>
+                        <td>18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+
+            <section>
+            <h2>Tabla Filas</h2>
+            <hr>
+            <table border="1">
+                <caption>Filas</caption>
+                <thead>
+                    <!--cabecera-->
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr><!--row-->
+                </thead>
+                <tbody>
+                    <!--cuerpo-->
+                    <tr>
+                        <td>Mateo</td>
+                        <td>Aguirre</td>
+                        <td rowspan="2">18</td>
+                    </tr>
+                    <tr>
+                        <td>Sergio</td>
+                        <td>Chávez</td>
+                        <!--td>14</td-->
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+        </main>
+    </body>
+</html>
