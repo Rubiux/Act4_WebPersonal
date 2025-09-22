@@ -8,32 +8,33 @@
         <!--ESTILOS CSS-->
         <style>
             body{
-                background-color: #f4f4f4;
+                background-color: #1e1e1e;
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
                 list-style: 1.6;
+                color: white;
             }
             h1{
                 color: white;
             }
-            h2 {
+            h2,h4,h5,h6,h7 {
                 color: white;
-            }
-            h3{
-                color: white;
-            }
-            h4{
-                color: white;
-            }
-            h5{
-                color: black;
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0px;
                 list-style: 1.6;
-                font-size: large;
+                font-size: xx-large;
                 text-align: center;
+            }
+            h3{
+                color: white;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0px;
+                list-style: 1.6;
+                font-size: xx-large;
+                
             }
             /*===ENCABEZADO===*/
             header{
@@ -158,7 +159,22 @@
             div{
                 text-align: center;
             }
-
+            iframe{
+                background-color: black;
+                background-position: 100%;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.549);
+                background-blend-mode: darken;
+                padding: 20px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px black;
+                margin-top: 20px;
+            }
+            audio{
+                display: block;
+                margin: 20px auto;
+            }
         </style>
     </head>
     <body>
@@ -208,6 +224,7 @@
                 soy hoy en día.
                 </p>
             </section>
+            
             <div class="foto">
                 <h5>Fotos Personales</h5>
                 <img src="images/XVGirl.jpg" alt="Foto de retrato">
@@ -225,6 +242,35 @@
                 <ul><li>Comida: Albondigas</li></ul>
                 
             </article>
+            <h6>Videos Favoritos</h6>
+            <iframe width="1430" height="800"
+               src="https://www.youtube.com/embed/j9dfMBStyPo"
+               title="Youtube Video del Rubius"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+            </iframe>
+            <iframe width="1430" height="800"
+               src="https://www.youtube.com/embed/G0OBPMpIeq0"
+               title="Youtube Video del Rubius"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+            </iframe>
+            <iframe width="1430" height="800"
+               src="https://www.youtube.com/embed/G9ndHPkVbj4"
+               title="Youtube Video del Rubius"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+            </iframe>
+            <iframe width="1430" height="800"
+               src="https://www.youtube.com/embed/bGY7S5u5FFY"
+               title="Youtube Video del Rubius"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+            </iframe>
             <!--3ra sección-->
             <aside>
                 <h4>Preferencias y Hobbies</h4>
@@ -255,10 +301,21 @@
                 Cuando estoy aprendiendo más cosas, son conocimientos de vida, datos curiosos sobre
                 lugares, objetos y cosas así, también me hago preguntas existenciales, cuestionar mis
                 conocimientos para mejorarlos o fortalecerlos, aumentar mis capacidades en cualquier entorno,
-                estar preparado para todo, saber las cosas para cuando se presenten. 
+                estar preparado para todo, saber las cosas para cuando se presenten.  
                 </p>
             </aside>
+
+            <h7>Canción favorita</h7>
+            <iframe data-testid="embed-iframe" 
+            style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/7BqBn9nzAq8spo5e7cZ0dJ?utm_source=generator" 
+            width="1430" height="352" frameBorder="0" 
+            allowfullscreen="0" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+            </iframe>    
         </main>
+        
         <!--PIE DE PAGINA-->
         <footer>
             <p> &copy; 2025 Web sobre mi | Contacto: byrubius10@gmail.com </p>
@@ -271,6 +328,8 @@
             <a href="https://www.youtube.com/@willojeda117" target="_blank">
                 <i class="fab fa-youtube"></i>
             </a>
+            <a href="https://www.twitch.tv/rubius" target="_blank">
+                <i class="fab fa-twitch"></i>
         </footer>
         
     </body>
